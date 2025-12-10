@@ -1,0 +1,40 @@
+.logo{
+    margin: 0;
+    padding: 0;
+    color: #ff7200;
+    font-size: 30px;
+    padding-left: 5px;
+    float: left;
+    background-color: pink;
+
+}
+
+.main{
+    padding: 20px;
+    display: flex;
+    width: 100vw;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    background-image: url(./assets/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align:start;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu-list{
+    background-color:chartreuse;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    gap: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
