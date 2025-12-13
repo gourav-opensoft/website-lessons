@@ -1,50 +1,101 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 .logo{
     margin: 0;
     padding: 0;
     color: #ff7200;
     font-size: 50px;
-    padding-left: 5px;
+    padding-left: 1px;
     float: left;
+    /* background-color: pink; */
 
 }
 
 .main{
+    padding: 2px;
     display: flex;
-    width: 100wh;
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
     background-image: url(./assets/1.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
     text-align:start;
+    /* align-items: center; */
     justify-content: space-between;
-    
 }
 
 .menu-list{
     padding: 20px;
+    /* background-color:chartreuse; */
     display: flex;
-    justify-content:center;
-    width: 100vw;
-    gap: 250px;
+    justify-content: space-around;
+    gap: 150px;
 }
 
 a{
-    text-decoration: none;
-    color:white;
-    font-family:Arial;
+    /* text-decoration: none; */
+    color:whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    transition: 0.5s easy-in-out;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
-
 ul li a:hover{
-    color: #ff7200;
+    color:#ff7200;
 }
 
 li{
     list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.search{
+    width: 330px;
+    margin-left: 50px;
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color:#ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color:white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 100vw;
+    height: auto;
+    /* margin: auto; */
+    background-color: pink;
+    diplay: flex;
+    align-items:flex-start;
 }
